@@ -1,6 +1,6 @@
 
 package com.cifpcarballeira.katas.FizzBuzz;
-
+/*Potato*/
 public class FizzBuzz {
 
     public String getFizzBuzz(int num) {
