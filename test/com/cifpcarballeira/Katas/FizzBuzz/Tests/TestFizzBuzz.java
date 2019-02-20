@@ -6,10 +6,6 @@ import com.cifpcarballeira.katas.FizzBuzz.FizzBuzz;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author DAM105
- */
 public class TestFizzBuzz {
 
     public TestFizzBuzz() {
@@ -27,5 +23,12 @@ public class TestFizzBuzz {
         FizzBuzz fb = new FizzBuzz();
         String result = fb.getFizzBuzz(2);
         assertEquals("2", result);
+    }
+    
+    @Test
+    public void test3devuelve3() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(3);
+        assertEquals("Fizz", result);
     }
 }
