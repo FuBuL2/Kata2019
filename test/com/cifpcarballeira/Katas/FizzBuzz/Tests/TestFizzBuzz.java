@@ -45,4 +45,11 @@ public class TestFizzBuzz {
         String result = fb.getFizzBuzz(15);
         assertEquals("FizzBuzz", result);
     }
+    
+    @Test
+    public void testmultiplo3contiene3devuelveFizz() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(5);
+        assertEquals("Buzz", result);
+    }    
 }
